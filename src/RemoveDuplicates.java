@@ -20,9 +20,9 @@ public class RemoveDuplicates {
 
     public static <E> ArrayList<E> removeDuplicates(ArrayList<E> list){
 
-        // method creates new ArrayList for non-duplicate elements
+        // new ArrayList for non-duplicate elements
         ArrayList<E> noDuplicate = new ArrayList<>();
-        // method crates new ArrayList for duplicated elements.
+        // new ArrayList for duplicated elements.
         ArrayList<E> duplicated = new ArrayList<>();
         // with help of foreach loop, i add every element in list to the non-duplicate list but
         // if non-duplicate list contains an element, method removes element from the non-duplicate list
